@@ -32,12 +32,6 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText userPassword2;
     private EditText userEmail;
     private EditText userPhone;
-    private EditText errorNombre;
-    private EditText errorApellido;
-    private EditText errorContrasena1;
-    private EditText errorContrasena2;
-    private EditText errorEmail;
-    private EditText errorPhone;
     private Button botonRegistro;
     private CheckBox checkBox1;
 

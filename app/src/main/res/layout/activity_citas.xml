@@ -20,7 +20,7 @@
                 android:id="@+id/BotonCita"
                 android:layout_width="384dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#A17575"
+                android:backgroundTint="#7249C5"
                 android:text="Solicitar Cita" />
 
             <CalendarView
@@ -40,7 +40,7 @@
                 android:id="@+id/botonEstilista"
                 android:layout_width="384dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#A17575"
+                android:backgroundTint="#7249C5"
                 android:text="Seleccione un estilista" />
 
             <TimePicker
@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:headerBackground="@drawable/_2696b_696df6809f6c4ebb974a673dee3e6d69_mv2"
-                android:numbersSelectorColor="#C69F9F"
+                android:numbersSelectorColor="#7249C5"
                 android:scaleType="centerCrop" />
         </LinearLayout>
     </ScrollView>
