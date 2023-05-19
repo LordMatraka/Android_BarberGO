@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    android:background="@drawable/f547913506441f4eea53b3076c75f179">
+
+    <ImageView
+        android:id="@+id/promsImage"
+        android:layout_width="102dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="25dp"
+        app:srcCompat="@drawable/oferta" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/promsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/promContent"
+            android:layout_width="231dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Día de Andalucía (27F) 15%"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

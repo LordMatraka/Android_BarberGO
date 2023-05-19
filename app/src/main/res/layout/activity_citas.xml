@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/estudiar_barberia"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/BotonCita"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#A17575"
+                android:text="Solicitar Cita" />
+
+            <CalendarView
+                android:id="@+id/calendar_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#A37878"
+                android:backgroundTint="#976F6F"
+                android:contextClickable="true"
+                android:foregroundTint="#AC8484"
+                android:minDate="05/01/2023"
+                android:selectedDateVerticalBar="@drawable/_2696b_696df6809f6c4ebb974a673dee3e6d69_mv2"
+                android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/botonEstilista"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#A17575"
+                android:text="Seleccione un estilista" />
+
+            <TimePicker
+                android:id="@+id/time_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:headerBackground="@drawable/_2696b_696df6809f6c4ebb974a673dee3e6d69_mv2"
+                android:numbersSelectorColor="#C69F9F"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

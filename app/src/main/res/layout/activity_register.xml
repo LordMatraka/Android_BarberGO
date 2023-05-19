@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f547913506441f4eea53b3076c75f179"
+    android:textAlignment="center"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/userPassword2"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:backgroundTint="#D7FFFFFF"
+        android:ems="10"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorContrasena1" />
+
+    <EditText
+        android:id="@+id/userPhone"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:backgroundTint="#D7FBF8F8"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorContrasena2"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/errorEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Este campo es obligatorio"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPhone" />
+
+    <TextView
+        android:id="@+id/errorContrasena2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Este campo es obligatorio"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/userPassword2"
+        tools:layout_editor_absoluteX="78dp" />
+
+    <TextView
+        android:id="@+id/errorContrasena1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Este campo es obligatorio"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/userPassword"
+        tools:layout_editor_absoluteX="74dp" />
+
+    <TextView
+        android:id="@+id/errorNombre"
+        android:layout_width="175dp"
+        android:layout_height="21dp"
+        android:text="Este campo es obligatorio"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/userSurnames"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName"
+        app:layout_constraintVertical_bias="0.0"
+        tools:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/userName4"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:backgroundTint="#D7FBF8F8"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <EditText
+        android:id="@+id/userSurnames"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:backgroundTint="#D7FBF8F8"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Apellidos"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName4"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <TextView
+        android:id="@+id/errorApellido"
+        android:layout_width="165dp"
+        android:layout_height="17dp"
+        android:text="Este campo es obligatorio"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userSurnames" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="He leído y acepto la política de privacidad"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorPhone"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <EditText
+        android:id="@+id/userName8"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:backgroundTint="#D7FBF8F8"
+        android:ems="10"
+        android:hint="Teléfono"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorEmail1"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <TextView
+        android:id="@+id/errorPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Este campo es obligatorio"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName8" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:backgroundTint="#D7FBF8F8"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fontFamily="cursive"
+        android:text="Crea tu nueva cuenta"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/userName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <Button
+        android:id="@+id/botonRegistro"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="176dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="39dp"
+        android:background="#CCCCCC"
+        android:backgroundTint="#871A1A"
+        android:backgroundTintMode="add"
+        android:shadowColor="#6A4F4F"
+        android:text="Registrarse"
+        app:iconTint="#8A6D6D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="#957979"
+        app:strokeColor="#958989" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/userName"
+        tools:layout_editor_absoluteX="78dp" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:backgroundTint="#D7FFFFFF"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorApellido" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

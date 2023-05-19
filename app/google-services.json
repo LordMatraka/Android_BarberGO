@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "817689124837",
+    "firebase_url": "https://babergo-ca7e0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "babergo-ca7e0",
+    "storage_bucket": "babergo-ca7e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817689124837:android:bcfb33f8d574f415e0590c",
+        "android_client_info": {
+          "package_name": "com.example.barbergo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817689124837-ukjs15769gt3djsu6jqnqsb9ts2k1fa7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwkonNJklLeNWODNws0niQbwkrwQwukmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817689124837-ukjs15769gt3djsu6jqnqsb9ts2k1fa7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
