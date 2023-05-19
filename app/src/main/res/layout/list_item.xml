@@ -24,12 +24,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:id="@+id/promContent"
-            android:layout_width="231dp"
-            android:layout_height="49dp"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:text="Día de Andalucía (27F) 15%"
