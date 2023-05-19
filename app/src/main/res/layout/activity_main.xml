@@ -24,8 +24,8 @@
 
     <Button
         android:id="@+id/botonLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="152dp"
+        android:layout_height="52dp"
         android:backgroundTint="#7249C5"
         android:text="Iniciar sesión"
         app:layout_constraintBottom_toTopOf="@+id/botonRegistro2"
@@ -36,8 +36,8 @@
 
     <Button
         android:id="@+id/botonRegistro2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="152dp"
+        android:layout_height="52dp"
         android:layout_marginBottom="164dp"
         android:backgroundTint="#4E3383"
         android:text="Registrarse"
