@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.getException());
-                            Toast.makeText(MainActivity.this, "Email o contrseña incorrectos.",
+                            Toast.makeText(MainActivity.this, "Email o contraseña incorrectos.",
                                     Toast.LENGTH_SHORT).show();
                         }
                     }

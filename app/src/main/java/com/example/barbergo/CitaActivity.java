@@ -93,7 +93,7 @@ public class CitaActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<DataSnapshot> task) {
                 if(!task.isSuccessful()){
-                    Toast.makeText(CitaActivity.this, "Error obteniendo las promociones, asegúrese de que está " +
+                    Toast.makeText(CitaActivity.this, "Error obteniendo el estilista, asegúrese de que está " +
                                     "conectado a internet e inténtelo de nuevo.",
                             Toast.LENGTH_SHORT).show();
                     Log.e("promos", "Error getting data", task.getException());
